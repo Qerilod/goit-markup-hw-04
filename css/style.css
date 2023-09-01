@@ -280,7 +280,6 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-box {
   padding-top: 32px;
@@ -319,6 +318,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-icon {
   height: 40px;
@@ -494,7 +494,7 @@ address {
   /* justify-content: center; */
   /* align-items: center; */
   /* fill: #f4f4fd; */
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-link {
@@ -505,7 +505,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
